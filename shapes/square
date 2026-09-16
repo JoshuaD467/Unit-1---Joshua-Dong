@@ -3,14 +3,14 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
-def rectangle():
-    t.forward(125)
+def square():
+    t.forward(100)
     t.left(90)
     t.forward(100)
     t.left(90)
-    t.forward(125)
+    t.forward(100)
     t.left(90)
     t.forward(100)
-rectangle()
+square()
 
 turtle.done()
