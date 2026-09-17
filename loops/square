@@ -3,9 +3,18 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
-def equal():
-    for i in range(3):
-        t.forward(100)
-        t.left(120)
+def square(x):
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+square(100)
+
+for i in range(60):
+    square(100)
+    t.right(5)
 
 turtle.done()
