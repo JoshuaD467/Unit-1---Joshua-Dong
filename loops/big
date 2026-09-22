@@ -3,13 +3,17 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
-def draw_square_spiral():
-    length=5
+def square(length,angle):
+    for i in range(4):
+        t.forward(length)
+        t.left(angle)
+
+def spiral_square(iRange):
+    length = 5
     for i in range(60):
-        for i in range(4):
-            t.forward(length)
-            t.left(90)
-            t.left(5)
+        square(length, 90)
         length += 5
+spiral_square(5)
+t.right(5)
 
 turtle.done()
