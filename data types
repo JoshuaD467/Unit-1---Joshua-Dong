@@ -1,0 +1,12 @@
+#integer
+x = 7 
+#float
+y = 3.14
+#boolean
+z = True
+#string
+name = "steve"
+#lists 
+students= ["Natalie","Martin","Ben","Stefania"]
+students.append("karas")
+print(students[-1])
