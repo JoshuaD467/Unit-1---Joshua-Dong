@@ -1,6 +1,7 @@
 import turtle
 from turtle import *
 t = Turtle()
+t.speed(0)
 
 t.shape('turtle')
 def square():
